@@ -21,13 +21,8 @@ public final class PluginTemplate extends SimplePlugin {
 
 	@Override
 	protected void onPluginStart() {
-
-
-		System.out.println(2332);
-		System.out.println("Hallo");
-		System.out.println("Kuhl");
-
-
+	
+		System.out.println("update");
 	}
 
 
