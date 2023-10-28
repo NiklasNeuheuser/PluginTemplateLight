@@ -17,13 +17,32 @@ public final class PluginTemplate extends SimplePlugin {
 	/**
 	 * Automaticaly performs login  Once when the plugin starts
 	 */
-	int aplle = 5;
+
 
 	@Override
 	protected void onPluginStart() {
-	
-		System.out.println("update");
+		int bla = 4;
+		int bli = 5;
+		int ble = 7;
+		int i = 0;
+		do {
+			i++;
+			if (i % 2 == 1) {
+				System.out.println("gerade" + i);
+			} else {
+				System.out.println("ungerade" + i);
+			}
+		} while (i != 10);
+		for (int g = 5; g != 10; g++)
+			System.out.println(g);
+
+		int[] zahlen = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+
+		for (int zahl : zahlen)
+			System.out.println("zahlenlist:" + zahl);
 	}
+
+
 
 
 	/* ------------------------------------------------------------------------------- */
